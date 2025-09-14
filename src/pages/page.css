@@ -1,0 +1,181 @@
+
+
+.homeC{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width : 700px) {
+    .homeC{
+        gap: 10px;
+    }
+}
+
+
+.viewC {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.viewContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.viewC .viewimg {
+    width: 50%;
+    height: auto;
+}
+
+.viewC .viewimg img {
+    width: 100%;
+    position: sticky;
+    object-fit: contain;
+    top: 110px;
+}
+
+.viewC .viewabout {
+    width: 60%;
+    height: 165%;
+    border-left: 1px dashed #F09819;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.price {
+    box-shadow: 5px 10px 8px #F09819;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 110px;
+    line-height: 40px;
+}
+
+.price .orderButton {
+    display: flex;
+    justify-content: end;
+}
+
+.price .orderButton button {
+    border: none;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #eb330f 50%, #f9c803 100%);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.price .orderButton button:hover {
+    scale: 1.1;
+}
+
+@media (max-width : 750px) {
+    .viewC {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .viewC .viewimg {
+        width: 100%;
+        padding: 2px;
+        border-bottom: 1px solid #F09819;
+        height: auto;
+        margin-top: 110px;
+    }
+
+    .viewC .viewabout {
+        width: 100%;
+    }
+
+    .viewC .viewimg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .price {
+        margin-top: 10px;
+        width: 90%;
+    }
+}
+
+
+.orderContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    
+
+}
+
+.orderContainer .orderform {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.orderform form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.orderform form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.orderform form input,
+.orderform form select,
+.orderform form textarea {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.orderform form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.orderform form input:focus,
+.orderform form select:focus,
+.orderform form textarea:focus {
+    border-color: #ff6600;
+    box-shadow: 0px 0px 5px rgba(255, 102, 0, 0.5);
+}
+
+.orderform form button {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #eb330f 50%, #f9c803 100%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
