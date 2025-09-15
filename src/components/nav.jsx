@@ -5,7 +5,7 @@ export default function NavBar() {
         <nav className="nav"> 
 
             <div className="logo">
-                <img src="../images/logo.jpg" alt="NOT FOUND" />
+                <img src="/images/logo.jpg" alt="NOT FOUND" />
             </div>
 
             <div className="name">

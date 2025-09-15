@@ -6,9 +6,9 @@ export default function Footer() {
             <div className="footer1">
                 <h1>Social Media</h1>
                 <div className="socialC">
-                    <div><img src="../images/facebook.png" alt="" /> <a href="https://www.facebook.com/share/14RoHDtJE8/" target='_blank'>FaceBook</a></div>
-                    <div> <img src="../images/instagram.png" alt="" /> <a href="https://www.instagram.com/sounds_bright?igsh=bG1oOTExZ29uOWsw" target='_blank'>Instagram</a> </div>
-                    <div> <img src="../images/mail.png" alt="" /> <a href="mailto:soundsbrightformusiclovers@gmail.com" target='_blank'>Mail </a></div>
+                    <div><img src="/images/facebook.png" alt="" /> <a href="https://www.facebook.com/share/14RoHDtJE8/" target='_blank'>FaceBook</a></div>
+                    <div> <img src="/images/instagram.png" alt="" /> <a href="https://www.instagram.com/sounds_bright?igsh=bG1oOTExZ29uOWsw" target='_blank'>Instagram</a> </div>
+                    <div> <img src="/images/mail.png" alt="" /> <a href="mailto:soundsbrightformusiclovers@gmail.com" target='_blank'>Mail </a></div>
                 </div>
             </div>
             <div className="footer2">
