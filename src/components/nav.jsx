@@ -5,7 +5,7 @@ export default function NavBar() {
         <nav className="nav"> 
 
             <div className="logo">
-                <img src="/images/logo.jpg" alt="NOT FOUND" />
+                <img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} alt="Logo" />
             </div>
 
             <div className="name">
