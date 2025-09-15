@@ -1,11 +1,13 @@
 import './component.css';
+import { getImageUrl } from '../utils/img-utils';
 
 export default function NavBar() {
     return (
         <nav className="nav"> 
 
             <div className="logo">
-                <img src="/images/logo.jpg" alt="company" srcset="" />
+                 <img src={getImageUrl('logo.jpg')}
+                            alt="soundsbright"/>
             </div>
 
             <div className="name">
